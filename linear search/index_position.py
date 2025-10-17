@@ -1,0 +1,1 @@
+# Write a program to check if a number exists in the list using linear search.
