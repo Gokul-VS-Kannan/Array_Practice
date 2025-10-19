@@ -7,7 +7,7 @@ def second_largest(arr):
         for j in range(i+1,n):
             if arr[j] < arr[min_index]:
                 min_index = j
-            arr[i],arr[min_index] = arr[min_index],arr[i]
+        arr[i],arr[min_index] = arr[min_index],arr[i]
     largest = arr[-1]
     for k in range(n-2, -1, -1):
         if arr[k] < largest:
